@@ -10,7 +10,7 @@ export const LoginPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
   login({ email, password });
-  };
+};
 
   return (
     <div className="min-h-screen bg-claude-bg flex items-center justify-center p-4">

@@ -160,7 +160,7 @@ export const DashboardPage = () => {
                       outerRadius={90}
                       fill="#8884d8"
                       dataKey="value"
-                      >
+                    >
                       {pieData.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={entry.color} />
                       ))}
