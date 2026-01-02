@@ -1,4 +1,4 @@
-import { useState, FormEvent } from 'react';
+import { useState } from 'react';
 import { Users } from 'lucide-react';
 import { useAuth } from '../features/auth/hooks/useAuth';
 
@@ -7,9 +7,9 @@ export const LoginPage = () => {
   const [password, setPassword] = useState('');
   const { login, isLoggingIn, loginError } = useAuth();
 
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    login({ email, password });
+  const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  login({ email, password });
   };
 
   return (
