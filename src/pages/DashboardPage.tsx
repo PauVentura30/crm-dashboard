@@ -1,3 +1,4 @@
+// 
 import { useNavigate } from 'react-router-dom';
 import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { Users, TrendingUp, Clock, AlertCircle } from 'lucide-react';
